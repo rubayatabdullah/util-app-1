@@ -1,11 +1,11 @@
-import logo from "../assets/images/header-logo.png";
+import darkLogo from "../assets/images/dark-logo.png";
 
 export default function Header() {
   return (
     <>
       <header className="flex justify-between shadow-md">
         <div className="w-16 h-16 flex">
-          <img src={logo} alt="header-logo" className="w-full h-full" />
+          <img src={darkLogo} alt="header-logo" className="w-full h-full" />
           <h1 className="font-normal text-3xl mt-auto mb-auto">EQN</h1>
         </div>
         <div className="mt-auto mb-auto mr-5">
